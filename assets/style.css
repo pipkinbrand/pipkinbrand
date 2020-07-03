@@ -25,6 +25,12 @@ p {
     font-family: 'Inconsolata', monospace;
 }
 
+h1,
+h2,
+h3 {
+    margin-top: 0em;
+}
+
 h1 {
     font-size: 4em;
     margin-bottom: .5em;
@@ -38,6 +44,7 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    font-weight: 300;
     margin-bottom: .25em;
 }
 
