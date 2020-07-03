@@ -47,5 +47,6 @@ a {
 
 .pb-footer {
     text-align: center;
-    font-style: 22px;
+    font-size: 18px;
+    padding: 1em;
 }
