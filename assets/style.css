@@ -1,3 +1,9 @@
+:root {
+    --red: #a01d20;
+    --slate: #0f4755;
+
+}
+
 html {
     background: #efefef;
 }
@@ -16,11 +22,11 @@ h2,
 h3 {
     margin-top: 0;
     margin-bottom: 1em;
-    color: #0f4755;
 }
 
 h1 {
     font-size: 2.5em;
+    color: var(--slate);
 }
 
 h2 {
@@ -29,11 +35,17 @@ h2 {
 
 h3 {
     font-size: 1.4em;
+    color: var(--red);
 }
 
 a {
-    color: #a01d20;
+    color: var(--red);
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--slate);
+    transition: .2s ease-in-out;
 }
 
 .pb-main {
