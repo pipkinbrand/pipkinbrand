@@ -5,6 +5,16 @@
 
 html {
     background: #efefef;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    place-content: center;
+}
+
+body {
+    width: 100%;
+    padding: 0 0 4em;
 }
 
 h1,
@@ -13,27 +23,22 @@ h3,
 span,
 p {
     font-family: 'Inconsolata', monospace;
-
-}
-
-h1,
-h2,
-h3 {
-    margin-top: 0;
-    margin-bottom: 1em;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 4em;
+    margin-bottom: .5em;
     color: var(--slate);
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: .5em;
 }
 
 h3 {
     font-size: 1.5em;
+    margin-bottom: .25em;
 }
 
 a {
