@@ -1,6 +1,6 @@
 html {
-    background: #e3dfd5;
-    color: #000;
+    background: #3b3b3b;
+    color: #fff;
 }
 
 h1,
@@ -8,4 +8,8 @@ h2,
 h3,
 span {
     font-family: 'Inconsolata', monospace;
+}
+
+a {
+    color: #a01d20;
 }
