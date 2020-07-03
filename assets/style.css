@@ -29,23 +29,21 @@ h1,
 h2,
 h3 {
     margin-top: 0em;
+    margin-bottom: 2rem;
 }
 
 h1 {
     font-size: 4em;
-    margin-bottom: .5em;
     color: var(--slate);
 }
 
 h2 {
     font-size: 3em;
-    margin-bottom: .5em;
 }
 
 h3 {
     font-size: 1.5em;
     font-weight: 300;
-    margin-bottom: .25em;
 }
 
 a {
@@ -64,7 +62,6 @@ a:hover {
 
 .social {
     font-size: 38px;
-    padding: 12px;
 }
 
 .pb-footer {
