@@ -1,1 +1,3 @@
-document.getElementById("year").innerHTML = new Date().getFullYear();
+const year = () => {
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+}
