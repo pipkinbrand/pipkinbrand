@@ -41,6 +41,11 @@ a {
 }
 
 .social {
-    font-style: 38px!important;
+    font-size: 38px;
     padding: 12px;
+}
+
+.pb-footer {
+    text-align: center;
+    font-style: 22px;
 }

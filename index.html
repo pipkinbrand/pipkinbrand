@@ -8,24 +8,28 @@
         <script src="https://kit.fontawesome.com/25d6f1d9a7.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <main>
-            <section class="pb-header">
+        <section class="pb-header">
 
-            </section>
-            <section class="pb-main">
-                <h1>Landon Pipkin | Web Developer</h1>
-                <div class="social">
-                    <a href="https://twitter.com/pipkinbrand">
-                        <i class="fab fa-twitter"></i>
-                    </a> 
-                    <a href="https://github.com/pipkinbrand">
-                        <i class="fab fa-github"></i>
-                    </a> 
-                    <a href="mailto:pipkinlandon@gmail.com">
-                        <i class="far fa-envelope"></i>
-                    </a> 
-                </span>
-            </section>
-        </main>
+        </section>
+        <section class="pb-main">
+            <h1>Landon Pipkin | Web Developer</h1>
+            <div class="social">
+                <a href="https://twitter.com/pipkinbrand">
+                    <i class="fab fa-twitter"></i>
+                </a> 
+                <a href="https://github.com/pipkinbrand">
+                    <i class="fab fa-github"></i>
+                </a> 
+                <a href="mailto:pipkinlandon@gmail.com">
+                    <i class="far fa-envelope"></i>
+                </a> 
+            </span>
+        </section>
+        <section class="pb-footer">
+            <span>© <span id="year"></span> PipkinBrand</span>
+            <script>
+                document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
+        </section>
     </body>
 </html>
