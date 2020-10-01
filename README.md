@@ -1,5 +1,5 @@
 # <a href="https://pipkinbrand.github.io/pipkinbrand/">pipkinbrand</a>
 
-Q: Why are keyboards always working so hard?
+# GitHub Stats
 
-A: Cause they have two shifts!
+![Landon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pipkinbrand&show_icons=true&theme=vue-dark)
