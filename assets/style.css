@@ -1,3 +1,4 @@
+/* GitHub Pages */
 :root {
   --whitesmoke: #f8f8f2;
   --darkslategray: #44475a;
@@ -70,4 +71,14 @@ a:hover {
   text-align: center;
   font-size: 18px;
   padding: 1em;
+}
+
+/* GitHub README */
+.pb-readme {
+  font-size: 34px;
+  color: #282a36;
+}
+
+.pb-readme:hover {
+  color: var(--lightgreen);
 }
