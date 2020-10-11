@@ -1,11 +1,13 @@
 :root {
-  --red: #a01d20;
-  --slate: #0f4755;
+  --whitesmoke: #f8f8f2;
+  --darkslategray: #44475a;
+  --tomato: #ff5555;
+  --lightgreen: #50fa7b;
 }
 
 html {
-  background: #282a36;
-  color: #f8f8f2;
+  background: var(--darkslategray);
+  color: var(--whitesmoke);
   display: flex;
   height: 100vh;
   width: 100%;
@@ -35,7 +37,6 @@ h3 {
 
 h1 {
   font-size: 4em;
-  color: var(--slate);
 }
 
 h2 {
@@ -48,12 +49,12 @@ h3 {
 }
 
 a {
-  color: var(--red);
+  color: var(--tomato);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--slate);
+  color: var(--lightgreen);
   transition: 0.2s ease-in-out;
 }
 
