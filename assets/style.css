@@ -74,11 +74,12 @@ a:hover {
 }
 
 /* GitHub README */
-.pb-readme {
+#user-content-pipkinbrand,
+#user-content-pipkinbrand {
   font-size: 34px;
   color: #282a36;
 }
 
-.pb-readme:hover {
+#user-content-pipkinbrand:hover {
   color: var(--lightgreen);
 }
